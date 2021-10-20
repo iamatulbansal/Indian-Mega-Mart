@@ -1,0 +1,48 @@
+body {
+    background: #249220;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 5.5rem;
+    background-color: burlywood;
+}
+
+.mainlogo {
+    background: rgb(75, 106, 190);
+    height: 5rem;
+}
+
+.dummyName {
+    /* using Google Font */
+    text-decoration: underline;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.main-container {
+    width: 50rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.frontDisplayImage {
+    height: 40vh;
+    width: 100wh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerSection {
+    color: white;
+    height: 50px;
+    width: 100%;
+    background-color: brown;
+    align-items: center;
+}
